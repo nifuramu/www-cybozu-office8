@@ -1,0 +1,18 @@
+WWW-Cybozu-Office8
+
+= ABOUT =
+
+Cybozu Office 8 を操作するための Perl モジュールになる予定でした。
+
+出来ること
+
+  - スケジュールの参照
+  - 自分の最新情報の参照
+
+更新系は自分に必要がなかったので未着。
+
+hirose31さんのWWW::Cybozu::Office6をコピペプログラミングしました。
+とてもありがとうございました。
+
+  - WWW::Cybozu::Office6
+    http://github.com/hirose31/www-cybozu-office6/tree/master
