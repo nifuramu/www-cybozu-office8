@@ -26,8 +26,9 @@ sub retrieve {
     my $date = _dotize_ymd($param{date});
     ### $date
 
-    my $url = sprintf($self->{base_url}.'?page=ScheduleUserDay&Date=da.%s',
+    my $url = sprintf($self->{base_url}.'?page=ScheduleUserDay&Date=da.%s&uid=%s',
 		$date,
+		$param{uid},
 	);
     ### $url
     $self->{mech}->get( $url );
@@ -118,6 +119,8 @@ Retrieve schedules. Returns array ref of schedule hash.
   YYYY-MM-DD
   YYYY-M-D
   YY/M/D
+
+=item uid => CybozuOffice8 user id(UID)
 
 =back
 

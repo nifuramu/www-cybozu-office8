@@ -8,7 +8,8 @@ use Carp;
 use open IO => ':locale';
 use POSIX qw(strftime);
 use YAML;
-use lib ("/home/t-nozaki/projects/www-cybozu-office8/lib");
+use FindBin;
+use lib ("$FindBin::Bin/../lib");
 use WWW::Cybozu::Office8;
 use DateTime;
 
